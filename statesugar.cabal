@@ -1,0 +1,16 @@
+Name:                StateSugar
+Version:             0.0.1
+cabal-version:       >= 1.6
+Synopsis:            States, but prettier
+Description:         A syntax improvement for Haskell's State Monad
+License:             GPL
+Author:              Christopher Olah
+Maintainer:          Christopher Olah <chris@colah.ca>
+build-type:          Simple
+Category:            Data
+
+Library
+    Build-Depends:       base >= 3 && < 5, mtl
+    Extensions:          MultiParamTypeClasses, FunctionalDependencies, ScopedTypeVariables, FlexibleInstances, UndecidableInstances
+    Exposed-Modules: 
+       Control.Monad.State.Sugar
